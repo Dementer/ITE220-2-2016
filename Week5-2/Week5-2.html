@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Weather Information</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/weather.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<br><br>
+			<div class="row text-center">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<h1 class="text-center">Weather Info</h1>
+					<button type="button" class="btn btn-warning btn-block" id="bangkok">Bangkok</button>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<button type="button" class="btn btn-warning btn-block">LAX</button>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<button type="button" class="btn btn-warning btn-block">Hell</button>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 text-center">
+					<p id="city-name" class="text-center lead"></p>
+					<img id="icon" src="" />
+					<p id="des" class="text-center lead"></p>
+					<h1 id="temperature" class="text-center"></h1>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+  		</div>
+  	</body>
+
+</html>
